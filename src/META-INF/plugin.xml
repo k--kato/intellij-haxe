@@ -29,7 +29,7 @@
   <depends optional="true" config-file="flex-debugger-support.xml">com.intellij.flex</depends>
   <depends optional="true" config-file="debugger-support.xml">com.intellij.modules.ultimate</depends>
 
-  <version>0.11.0.RC-1 for @plugin.compatibility.description@</version>
+  <version>0.11.0.RC-2 for @plugin.compatibility.description@</version>
   <change-notes>
     <![CDATA[
       <p>This jar is compatible with @plugin.compatibility.description@</p>
@@ -37,6 +37,10 @@
       <p>Documentation: http://github.com/HaxeFoundation/intellij-haxe/README.md.</p>
       <p>Support: http://github.com/HaxeFoundation/intellij-haxe/issues.</p>
       <p/>
+      <p>0.11.0.RC-2: (community release)</p>
+      <ul>
+        <li>IDEA v17 compatibility.</li>
+      </ul>
       <p>0.11.0.RC-1: (community release)</p>
       <ul>
         <li>Better code completion using the compiler -- OFF BY DEFAULT!  Turn on in File->Project Structure...</li>

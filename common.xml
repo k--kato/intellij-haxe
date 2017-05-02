@@ -46,7 +46,7 @@
 
   <!-- On a mac, the build.txt is in a Resources directory, whereas on
        Windows and Linux, it's in the root. -->
-  <condition property="idea.build.id.file" value="Resources/build.txt">
+  <condition property="idea.build.id.file" value="build.txt">
     <os family="mac"/>
   </condition>
   <property name="idea.build.id.file" value="build.txt"/>
@@ -122,6 +122,7 @@
       // Lookup table for properties files.  Add new versions here.
       var propertiesFile = "";
       switch(parseInt(codeLine, 10)) {
+        case 171:   propertiesFile = "idea_v17.properties";   break;
         case 163:   propertiesFile = "idea_v16.properties";   break; // EAP
         case 162:   propertiesFile = "idea_v16.properties";   break;
         case 145:   propertiesFile = "idea_v16.properties";   break;

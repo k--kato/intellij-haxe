@@ -6,6 +6,10 @@
      plugin is for IDEA versions 14.1.5, 14.1.6, and 14.1.7.
   </p>
 
+  <p>0.11.0.RC-2: (community release)</p>
+  <ul>
+    <li>IDEA v17 compatibility.</li>
+  </ul>
   <p>0.11.0.RC-1: (community release)</p>
   <ul>
     <li>Better code completion using the compiler -- OFF BY DEFAULT!  Turn on in File->Project Structure...</li>
